@@ -78,6 +78,10 @@ public class Configuration {
         this.properties.putAll(other.properties);
     }
 
+    public Configuration(Properties properties) {
+        this.properties.putAll(properties);
+    }
+
     /**
      * 
      */
